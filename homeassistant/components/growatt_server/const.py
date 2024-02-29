@@ -7,14 +7,17 @@ DEFAULT_PLANT_ID = "0"
 
 DEFAULT_NAME = "Growatt"
 
-SERVER_URLS = [
-    "https://server-api.growatt.com/",
-    "https://server-us.growatt.com/",
-    "http://server.smten.com/",
+SERVER_URLS = [ 
+    "https://openapi-cn.growatt.com", # Chinese server
+    "https://openapi-us.growatt.com", # North American server
+    "https://openapi.growatt.com", # Other regional server 
 ]
 
-DEPRECATED_URLS = [
+DEPRECATED_URLS = [ 
     "https://server.growatt.com/",
+    "https://server-api.growatt.com/",
+    "https://server-us.growatt.com/",
+    "http://server.smten.com/", 
 ]
 
 DEFAULT_URL = SERVER_URLS[0]
